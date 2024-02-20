@@ -1,45 +1,39 @@
-## PR Checklist
-Please check if your PR fulfills the following requirements:
+## PR 유형
+어떤 변경 사항이 있나요?
 
-- [ ] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
+- [ ] 새로운 기능 추가
+- [ ] 버그 수정
+- [ ] UI/UX 디자인 변경
+- [ ] 코드에 영향을 주지 않는 변경 사항(오타 수정, 변수명 변경 등)
+- [ ] 코드 리팩토링
+- [ ] 주석 추가 및 수정
+- [ ] 세팅 수정 및 추가
+- [ ] 파일 혹은 폴더 수정
+- [ ] 파일 혹은 폴더 삭제
 
+<br/>
 
-## PR Type
-What kind of change does this PR introduce?
+## PR 체크리스트
+PR 생성 전 꼭 체크 해주세요.
+- [ ] 커밋 메세지 컨벤션에 맞게 작성했습니다. [Broz Git Rule](https://www.notion.so/broz/Git-Rule-41bbf6ab09ef4248b991b80c103a44f9?pvs=4)
+- [ ] 적절한 Label와 Assignees,Reviewers를 할당하셨나요?
 
-<!-- Please check the one that applies to this PR using "x". -->
+<br/>
 
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update (formatting, local variables)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Documentation content changes
-- [ ] angular.io application / infrastructure changes
-- [ ] Other... Please describe:
+## 작업 내역 (필수)
+작업한 내용에 대해 간단하게 나열해주세요.
+- 예시) A기능 개발 완료
 
+<br/>
 
-## What is the current behavior?
-<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
+## 기타 설명 사항 (선택)
+추가적으로 팀원들에게 설명해야할 내용이 있다면 설명해주세요.
+- (리스트로 만들어서 서술해주세요)
 
-Issue Number: N/A
+<br/>
 
+## 레퍼런스 (선택)
+팀원들이 참고할만한 링크가 있다면 알려주세요.
+- 예시) `[링크 이름](주소)`를 사용한 마크다운 문법으로 입력해주세요.
 
-## What is the new behavior?
-
-
-## Does this PR introduce a breaking change?
-
-- [ ] Yes
-- [ ] No
-
-
-<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
-
-
-## Other information
-4. 마치며
-프로젝트원들과의 합
+<br/>
